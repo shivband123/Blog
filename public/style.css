@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+body{
+  background-color: aqua;
+}
+#nav{
+  border: 2px solid red;
+  height: 75px;
+  /* width: 100%; */
+  display: flex;
+}
+#head{
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+#list{
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}
